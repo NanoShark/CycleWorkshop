@@ -2744,9 +2744,9 @@
       </layout>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="general">
      <attribute name="title">
-      <string>Page</string>
+      <string>כללי</string>
      </attribute>
     </widget>
    </widget>
