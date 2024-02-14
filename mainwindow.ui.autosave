@@ -62,7 +62,7 @@
      <string notr="true">background-image: url(C:\Users\micka\QTprojects\myWorkShop\background.jpg)</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -2744,6 +2744,11 @@
       </layout>
      </widget>
     </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+    </widget>
    </widget>
    <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
@@ -2755,8 +2760,31 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
-     <item row="0" column="2">
-      <widget class="QLineEdit" name="lineEdit_3">
+     <item row="0" column="4">
+      <widget class="QLabel" name="label_14">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>טלפון</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="8">
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLineEdit" name="lineEdit_4">
        <property name="maximumSize">
         <size>
          <width>100</width>
@@ -2778,29 +2806,6 @@
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="8">
-      <widget class="QLineEdit" name="lineEdit_5">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="7">
-      <widget class="QLabel" name="label_4">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>צבע</string>
        </property>
       </widget>
      </item>
@@ -2833,6 +2838,23 @@
        </property>
       </widget>
      </item>
+     <item row="0" column="0">
+      <widget class="QDateEdit" name="dateEdit">
+       <property name="dateTime">
+        <datetime>
+         <hour>14</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2023</year>
+         <month>12</month>
+         <day>31</day>
+        </datetime>
+       </property>
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="6">
       <widget class="QLineEdit" name="lineEdit">
        <property name="maximumSize">
@@ -2843,20 +2865,13 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QDateEdit" name="dateEdit">
-       <property name="dateTime">
-        <datetime>
-         <hour>16</hour>
-         <minute>0</minute>
-         <second>0</second>
-         <year>2023</year>
-         <month>12</month>
-         <day>31</day>
-        </datetime>
-       </property>
-       <property name="calendarPopup">
-        <bool>true</bool>
+     <item row="0" column="8">
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
        </property>
       </widget>
      </item>
@@ -2873,8 +2888,8 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="4">
-      <widget class="QLabel" name="label_14">
+     <item row="2" column="7">
+      <widget class="QLabel" name="label_4">
        <property name="maximumSize">
         <size>
          <width>100</width>
@@ -2882,22 +2897,12 @@
         </size>
        </property>
        <property name="text">
-        <string>טלפון</string>
+        <string>צבע</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="8">
-      <widget class="QLineEdit" name="lineEdit_2">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="6">
-      <widget class="QLineEdit" name="lineEdit_4">
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEdit_3">
        <property name="maximumSize">
         <size>
          <width>100</width>
@@ -2914,7 +2919,7 @@
       <x>10</x>
       <y>110</y>
       <width>241</width>
-      <height>149</height>
+      <height>125</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_18">
