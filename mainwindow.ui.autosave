@@ -2748,24 +2748,14 @@
    <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>350</x>
       <y>0</y>
-      <width>791</width>
+      <width>691</width>
       <height>100</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_4">
-     <item row="0" column="2">
-      <widget class="QLineEdit" name="lineEdit_3">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="9">
+     <item row="0" column="10">
       <widget class="QLabel" name="label">
        <property name="maximumSize">
         <size>
@@ -2781,8 +2771,8 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="8">
-      <widget class="QLineEdit" name="lineEdit_5">
+     <item row="0" column="5">
+      <widget class="QLineEdit" name="lineEdit_3">
        <property name="maximumSize">
         <size>
          <width>100</width>
@@ -2791,7 +2781,17 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="7">
+     <item row="2" column="9">
+      <widget class="QLineEdit" name="bike_type">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="8">
       <widget class="QLabel" name="label_4">
        <property name="maximumSize">
         <size>
@@ -2804,23 +2804,7 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
-      <widget class="QCheckBox" name="Bleeding_CheckBox_2">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
-       </property>
-       <property name="text">
-        <string>הצעת מחיר</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="7">
+     <item row="0" column="8">
       <widget class="QLabel" name="label_2">
        <property name="maximumSize">
         <size>
@@ -2833,8 +2817,8 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="6">
-      <widget class="QLineEdit" name="lineEdit">
+     <item row="0" column="7">
+      <widget class="QLineEdit" name="last_name">
        <property name="maximumSize">
         <size>
          <width>100</width>
@@ -2843,8 +2827,54 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QDateEdit" name="dateEdit">
+     <item row="2" column="10">
+      <widget class="QLabel" name="label_3">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>סוג אופניים</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="9">
+      <widget class="QLineEdit" name="name_label">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLabel" name="label_14">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>טלפון</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QDateEdit" name="date_edit">
        <property name="dateTime">
         <datetime>
          <hour>16</hour>
@@ -2860,49 +2890,19 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="9">
-      <widget class="QLabel" name="label_3">
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="Bleeding_CheckBox_2">
        <property name="maximumSize">
         <size>
          <width>100</width>
          <height>16777215</height>
         </size>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
        </property>
        <property name="text">
-        <string>סוג אופניים</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="4">
-      <widget class="QLabel" name="label_14">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>טלפון</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="8">
-      <widget class="QLineEdit" name="lineEdit_2">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="6">
-      <widget class="QLineEdit" name="lineEdit_4">
-       <property name="maximumSize">
-        <size>
-         <width>100</width>
-         <height>16777215</height>
-        </size>
+        <string>הצעת מחיר</string>
        </property>
       </widget>
      </item>
