@@ -2943,9 +2943,9 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>89</x>
       <y>20</y>
-      <width>160</width>
+      <width>131</width>
       <height>80</height>
      </rect>
     </property>
@@ -3116,26 +3116,20 @@
        </item>
       </widget>
      </item>
+     <item>
+      <widget class="QLabel" name="label_16">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>תגית מספר</string>
+       </property>
+      </widget>
+     </item>
     </layout>
-   </widget>
-   <widget class="QLabel" name="label_16">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>330</y>
-      <width>100</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="maximumSize">
-     <size>
-      <width>100</width>
-      <height>16777215</height>
-     </size>
-    </property>
-    <property name="text">
-     <string>טלפון</string>
-    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
