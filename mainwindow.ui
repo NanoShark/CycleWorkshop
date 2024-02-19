@@ -62,7 +62,7 @@
      <string notr="true">background-image: url(C:\Users\micka\QTprojects\myWorkShop\background.jpg)</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -2480,7 +2480,7 @@
           <enum>Qt::RightToLeft</enum>
          </property>
          <property name="text">
-          <string>רוטור</string>
+          <string>סוללה</string>
          </property>
         </widget>
        </item>
@@ -2877,7 +2877,7 @@
       <widget class="QDateEdit" name="date_edit">
        <property name="dateTime">
         <datetime>
-         <hour>12</hour>
+         <hour>14</hour>
          <minute>0</minute>
          <second>0</second>
          <year>2023</year>
@@ -3130,6 +3130,19 @@
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>350</y>
+      <width>78</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
