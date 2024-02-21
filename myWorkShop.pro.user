@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<<<<<<< HEAD
 
-<!-- Written by QtCreator 12.0.2, 2024-02-19T09:43:29. -->
-
-=======
 <!-- Written by QtCreator 12.0.2, 2024-02-15T00:39:49. -->
->>>>>>> 78106f9 (blah)
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -247,22 +242,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-<<<<<<< HEAD
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/micka/QTprojects/myWorkShop/myWorkShop.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/micka/QTprojects/myWorkShop/myWorkShop.pro</value>
-=======
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/User/CycleWorkshop/myWorkShop.pro</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/User/CycleWorkshop/myWorkShop.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/User/CycleWorkshop/myWorkShop.pro</value>
->>>>>>> 78106f9 (blah)
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-<<<<<<< HEAD
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/micka/QTprojects/build-myWorkShop-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
-=======
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/User/build-myWorkShop-Desktop_Qt_6_6_1_MinGW_64_bit-Debug</value>
->>>>>>> 78106f9 (blah)
+
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
