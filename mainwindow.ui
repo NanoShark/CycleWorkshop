@@ -2932,6 +2932,95 @@
        </property>
       </widget>
      </item>
+<<<<<<< HEAD
+=======
+     <item row="0" column="7">
+      <widget class="QLabel" name="label_2">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>שם משפחה</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QDateEdit" name="dateEdit">
+       <property name="dateTime">
+        <datetime>
+         <hour>14</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2023</year>
+         <month>12</month>
+         <day>31</day>
+        </datetime>
+       </property>
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="QLabel" name="label_3">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>סוג אופניים</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLabel" name="label_4">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>צבע</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+>>>>>>> 78106f9 (blah)
     </layout>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget_18">
