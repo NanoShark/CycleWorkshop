@@ -62,7 +62,7 @@
      <string notr="true">background-image: url(C:\Users\micka\QTprojects\myWorkShop\background.jpg)</string>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>3</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -2744,6 +2744,11 @@
       </layout>
      </widget>
     </widget>
+    <widget class="QWidget" name="general">
+     <attribute name="title">
+      <string>כללי</string>
+     </attribute>
+    </widget>
    </widget>
    <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
@@ -2824,6 +2829,27 @@
          <width>100</width>
          <height>16777215</height>
         </size>
+       </property>
+
+       <property name="text">
+        <string>שם משפחה</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QDateEdit" name="dateEdit">
+       <property name="dateTime">
+        <datetime>
+         <hour>14</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2023</year>
+         <month>12</month>
+         <day>31</day>
+        </datetime>
+       </property>
+       <property name="calendarPopup">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
